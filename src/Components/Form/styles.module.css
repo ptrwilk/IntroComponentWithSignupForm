@@ -1,0 +1,45 @@
+@import url('../../colors.css');
+
+
+.container{
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--white);
+    box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .input:not(:first-child){
+    margin-top: 1rem;
+}
+
+.container .btn{
+    margin-top: 1rem;
+    padding: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: var(--green);
+    color : var(--white);
+    box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container .btn:hover{
+    background-color: var(--green);
+    opacity: 0.8;
+}
+
+.container .text{
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--grayish-blue);
+}
+
+.container .text .text-highlight{
+    font-weight: 500;
+    color: var(--red);
+}

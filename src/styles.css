@@ -1,6 +1,22 @@
+@import url('./colors.css');
+
 .app{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
     height: 100vh;
+    background-image: url('./assets/bg-intro-desktop.png'); 
+}
+
+.app::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--red);
+    mix-blend-mode: multiply;
+    z-index: -1;
 }
